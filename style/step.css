@@ -1,0 +1,130 @@
+.second__slice__start {
+	position: relative;
+	background: url(../image/second_start_slice.png);
+	background-size: cover;
+	height: 115px;
+	bottom: -1px;
+}
+
+.second__slice__end {
+	position: relative;
+	background: url(../image/second_end_slice.png);
+	background-size: cover;
+	height: 115px;
+	top: -1px;
+}
+.step {
+	max-height: 615px;
+	background-color: #421B81;
+	padding: 70px 0 95px;
+}
+
+.step__header {
+	display: block;
+	margin: 0 auto;
+	width: 425px;
+	margin-bottom: 41px;
+	display: block;
+	font-family: var(--font-family-base);
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 56px;
+	color: var(--color-white);
+	text-align: center;
+}
+
+.step__header span {
+	font-family: var(--font-family-base);
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 56px;
+	color: var(--color-yelow);
+}
+
+.step__subheader {
+	font-family: var(--font-family-base);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 9px;
+	text-align: center;
+	color: var(--color-white);
+	margin-bottom: 90px;
+}
+
+.step__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.step__list__item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:center ;
+	    -ms-flex-pack:center ;
+	        justify-content:center ;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 267px;
+	height: 204px;
+}
+
+.step__item__icon {
+	margin-bottom: 25px;
+	width: 55px;
+	height: 55px;
+}
+
+.step__item__header {
+	margin-bottom: 13px;
+	font-family: var(--font-family-base);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	color: var(--color-white);
+}
+
+
+.step__item__texts {
+	font-family: var(--font-family-base);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: center;
+	color: var(--color-white);
+}
+
+.step__end__line {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+
+.step__line {
+	width: 267px;
+	height: 1px;
+	border-color: rgba(174, 255, 255, 0.3);
+}
+
+.left__line {
+	position: relative;
+	top: -187px;
+	right: -62px;
+}
+
+.right__line {
+	position: relative;
+	top: -187px;
+	right: 62px;
+}

@@ -1,0 +1,90 @@
+.price {
+    padding: 69px 0 110px;
+    max-height: 1053px;
+    background-color:#6425CB;
+}
+
+.price__header {
+    margin-bottom: 14px;
+    font-family: var(--font-family-base);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.price__subheader {
+    margin-bottom: 60px;
+    font-family: var(--font-family-base);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.price__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__item__box {
+    width: 300px;
+    height: 610px;
+    padding: 40px 34px 51px;
+    background-color: var(--color-white);
+    border-radius: 15px;
+}
+
+.price__item__header {
+    margin-bottom: 20px;
+    font-family: var(--font-family-base);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var(--color-yelow);
+}
+
+.price__item__text {
+    margin-bottom: 40px;
+    font-family: var(--font-family-base);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: var(--color-purple-dark);
+}
+
+.price__item__text span {
+    position: relative;
+    top: -10px;
+    font-family: var(--font-family-base);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.price__list {
+    margin-bottom: 50px;
+}
+
+.price__list__item {
+    display: flex;
+    align-items: center;
+}
+
+.price__list__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.price__list__icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 19px;
+}
+
+.price__button {
+    text-align: center;
+}
