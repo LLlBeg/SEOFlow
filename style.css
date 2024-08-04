@@ -8,6 +8,8 @@
 @import url(style/price.css);
 @import url(style/client.css);
 @import url(style/news.css);
+@import url(style/touch.css);
+@import url(style/contact.css);
 
 /* nunito-regular - cyrillic */
 @font-face {
@@ -29,9 +31,7 @@
   **
   Нормализация блочной модели
  */
-*,
-::before,
-::after {
+* {
   box-sizing: border-box;
 }
 

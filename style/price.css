@@ -1,103 +1,103 @@
 .price {
-    padding: 69px 0 110px;
-    max-height: 1053px;
-    background-color:#6425CB;
+	padding: 69px 0 110px;
+	max-height: 1053px;
+	background-color:#6425CB;
 }
 
 .price__header {
-    margin-bottom: 14px;
-    font-family: var(--font-family-base);
-    font-size: 38px;
-    font-weight: 400;
-    line-height: 56px;
-    text-align: center;
-    color: var(--color-white);
+	margin-bottom: 14px;
+	font-family: var(--font-family-base);
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 56px;
+	text-align: center;
+	color: var(--color-white);
 }
 
 .price__subheader {
-    margin-bottom: 60px;
-    font-family: var(--font-family-base);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: center;
-    color: var(--color-white);
+	margin-bottom: 60px;
+	font-family: var(--font-family-base);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 34px;
+	text-align: center;
+	color: var(--color-white);
 }
 
 .price__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+					justify-content: space-between;
 }
 
 .price__item__box {
-    width: 300px;
-    height: 610px;
-    padding: 40px 34px 51px;
-    background-color: var(--color-white);
-    border-radius: 15px;
+	width: 300px;
+	height: 610px;
+	padding: 40px 34px 51px;
+	background-color: var(--color-white);
+	border-radius: 15px;
 }
 
 .price__item__header {
-    margin-bottom: 20px;
-    font-family: var(--font-family-base);
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    color: var(--color-yelow);
+	margin-bottom: 20px;
+	font-family: var(--font-family-base);
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	color: var(--color-yelow);
 }
 
 .price__item__text {
-    margin-bottom: 40px;
-    font-family: var(--font-family-base);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-    color: var(--color-purple-dark);
+	margin-bottom: 40px;
+	font-family: var(--font-family-base);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+	color: var(--color-purple-dark);
 }
 
 .price__item__text span {
-    position: relative;
-    top: -10px;
-    font-family: var(--font-family-base);
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 36px;
+	position: relative;
+	top: -10px;
+	font-family: var(--font-family-base);
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 36px;
 }
 
 .price__list {
-    margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .price__list__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+			-ms-flex-align: center;
+					align-items: center;
 }
 
 .price__list__item:not(:last-child) {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .price__list__icon {
-    width: 12px;
-    height: 12px;
-    margin-right: 19px;
+	width: 12px;
+	height: 12px;
+	margin-right: 19px;
 }
 
 .price__button {
-    margin: 0 auto;
-    width: 168px;
-    height: 54px;
-    background-color: var(--color-white);
-    color: var(--color-purple-dark);
-    border: 1px solid var(--color-purple-dark);
+	margin: 0 auto;
+	width: 168px;
+	height: 54px;
+	background-color: var(--color-white);
+	color: var(--color-purple-dark);
+	border: 1px solid var(--color-purple-dark);
 }
