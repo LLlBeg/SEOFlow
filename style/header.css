@@ -138,7 +138,8 @@
 .header__nav__button,
 .header__hero__button,
 .conversion__button,
-.services__subheader__button {
+.services__subheader__button,
+.price__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -167,7 +168,8 @@
 .header__nav__button:hover,
 .header__hero__button:hover,
 .conversion__button:hover,
-.services__subheader__button:hover {
+.services__subheader__button:hover
+.price__button:hover {
   color: var(--color-purple-light);
 }
 

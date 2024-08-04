@@ -6,6 +6,8 @@
 @import url(style/step.css);
 @import url(style/team.css);
 @import url(style/price.css);
+@import url(style/client.css);
+@import url(style/news.css);
 
 /* nunito-regular - cyrillic */
 @font-face {

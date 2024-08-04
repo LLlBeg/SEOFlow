@@ -25,8 +25,12 @@
 }
 
 .price__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .price__item__box {
@@ -71,8 +75,12 @@
 }
 
 .price__list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .price__list__item:not(:last-child) {
@@ -86,5 +94,10 @@
 }
 
 .price__button {
-    text-align: center;
+    margin: 0 auto;
+    width: 168px;
+    height: 54px;
+    background-color: var(--color-white);
+    color: var(--color-purple-dark);
+    border: 1px solid var(--color-purple-dark);
 }
